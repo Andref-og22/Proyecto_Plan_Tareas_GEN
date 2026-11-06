@@ -1,12 +1,13 @@
 :root{
-    --color-main: rgb(10, 34, 141);
+    --color-main: rgb(13, 40, 160);
     --blanco: white;
-    --color-dark: rgb(23, 122, 139);
+    --color-dark: rgb(10, 86, 136);
     --color-light: rgb(0, 217, 255);
     --color-fonts1: rgb(206, 242, 243);
     --color-fonts2: rgb(6, 85, 99);
     --color-yellow: rgb(235, 235, 15);
 }
+
 
 body {
     margin: 0;
@@ -47,6 +48,7 @@ body {
 
 .card-body {
     background-color: var(--color-dark);
+    border-radius: 10px;
 }
 
 .card-body h5 {
@@ -56,5 +58,6 @@ body {
 .card-body p {
     padding: 10px;
     background-color: var(--blanco);
-    border-radius: 5%;
+    border-radius: 10px;
+    
 }

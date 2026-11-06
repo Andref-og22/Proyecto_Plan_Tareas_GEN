@@ -62,15 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Ocultar y mostrar con btn New Tarea
-
-const btnAgregarTarea = document.getElementById("btn-crear-tarea");
-const formularioTarea = document.getElementById("formulario");
-
-btnAgregarTarea.addEventListener("click", () => {
-    formularioTarea.classList.toggle("d-none");
-});
-
 // Evento para que cuando se haga enter se pase al siguiente recuadro y no se envíe directamente
 formulario.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
